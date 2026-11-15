@@ -1,0 +1,135 @@
+[
+  {
+    "id": "NL-1001", "title": "Canal-side apartment with roof terrace", "address": "Lange Nieuwstraat 48-II", "city": "Utrecht", "neighbourhood": "Binnenstad",
+    "listing_type": "sale", "status": "available", "price_eur": 465000, "property_type": "apartment",
+    "bedrooms": 2, "bathrooms": 1, "area_m2": 78, "year_built": 1905, "energy_label": "C",
+    "features": ["roof terrace", "bike storage", "original details"], "pets_allowed": null, "service_costs_eur_month": 165, "available_from": "2026-03-01",
+    "description": "Second-floor apartment in a 1905 townhouse, five minutes' walk from Utrecht Central station. The 14 m2 roof terrace faces west. The owners' association is active and has a multi-year maintenance plan; the monthly contribution is 165 euros. The foundation was renewed in 2018."
+  },
+  {
+    "id": "NL-1002", "title": "Family home with south-facing garden", "address": "Merelstraat 17", "city": "Utrecht", "neighbourhood": "Vogelenbuurt",
+    "listing_type": "sale", "status": "available", "price_eur": 689000, "property_type": "terraced house",
+    "bedrooms": 4, "bathrooms": 2, "area_m2": 132, "year_built": 1932, "energy_label": "B",
+    "features": ["garden", "solar panels", "attic", "shed"], "pets_allowed": null, "service_costs_eur_month": null, "available_from": "2026-04-15",
+    "description": "1930s terraced house over three floors with a 9-metre-deep south-facing garden and a detached shed. Twelve solar panels were installed in 2023 and the ground floor has underfloor heating. Two primary schools are within 400 metres."
+  },
+  {
+    "id": "NL-1003", "title": "Starter apartment near Griftpark", "address": "Bollenhofsestraat 9-B", "city": "Utrecht", "neighbourhood": "Wittevrouwen",
+    "listing_type": "sale", "status": "available", "price_eur": 329000, "property_type": "apartment",
+    "bedrooms": 1, "bathrooms": 1, "area_m2": 46, "year_built": 1921, "energy_label": "D",
+    "features": ["balcony", "shared bike storage"], "pets_allowed": null, "service_costs_eur_month": 110, "available_from": "2026-02-01",
+    "description": "Compact first-floor apartment with a small east-facing balcony, 200 metres from Griftpark. The kitchen dates from 2015. The energy label is D; the owners' association plans to insulate the roof in 2027."
+  },
+  {
+    "id": "NL-1004", "title": "New-build penthouse in Leidsche Rijn", "address": "Berlijnplein 301", "city": "Utrecht", "neighbourhood": "Leidsche Rijn Centrum",
+    "listing_type": "sale", "status": "under_offer", "price_eur": 749000, "property_type": "apartment",
+    "bedrooms": 3, "bathrooms": 2, "area_m2": 121, "year_built": 2022, "energy_label": "A+++",
+    "features": ["lift", "private parking", "terrace", "heat pump"], "pets_allowed": null, "service_costs_eur_month": 245, "available_from": "2026-05-01",
+    "description": "Eighth-floor penthouse with a 28 m2 wraparound terrace, a private parking space in the basement garage and a lift to the front door. Gas-free with an individual heat pump. Currently under offer."
+  },
+  {
+    "id": "NL-1005", "title": "Jordaan apartment with canal view", "address": "Bloemgracht 77-III", "city": "Amsterdam", "neighbourhood": "Jordaan",
+    "listing_type": "sale", "status": "available", "price_eur": 795000, "property_type": "apartment",
+    "bedrooms": 2, "bathrooms": 1, "area_m2": 82, "year_built": 1890, "energy_label": "C",
+    "features": ["canal view", "monument", "storage room"], "pets_allowed": null, "service_costs_eur_month": 190, "available_from": "2026-03-15",
+    "description": "Third-floor apartment in a listed national monument overlooking the Bloemgracht. The property stands on freehold land, so there is no ground lease. There is no lift; the staircase is steep. Beamed ceilings and a separate storage room on the ground floor."
+  },
+  {
+    "id": "NL-1006", "title": "Modern apartment on ground lease in Oost", "address": "Cruquiusweg 142-F", "city": "Amsterdam", "neighbourhood": "Oostelijk Havengebied",
+    "listing_type": "sale", "status": "available", "price_eur": 615000, "property_type": "apartment",
+    "bedrooms": 2, "bathrooms": 1, "area_m2": 91, "year_built": 2017, "energy_label": "A",
+    "features": ["lift", "balcony", "bike storage", "district heating"], "pets_allowed": null, "service_costs_eur_month": 210, "available_from": "2026-02-15",
+    "description": "Fourth-floor apartment with a 9 m2 south-west balcony and water view. The home stands on municipal ground lease; the ground rent has been bought off until 31 August 2067. Heated through district heating, no gas connection."
+  },
+  {
+    "id": "NL-1007", "title": "Houseboat on the Amstel", "address": "Amsteldijk 880 (berth)", "city": "Amsterdam", "neighbourhood": "Rivierenbuurt",
+    "listing_type": "sale", "status": "available", "price_eur": 540000, "property_type": "houseboat",
+    "bedrooms": 2, "bathrooms": 1, "area_m2": 74, "year_built": 2004, "energy_label": "B",
+    "features": ["waterside terrace", "permanent mooring permit", "wood stove"], "pets_allowed": null, "service_costs_eur_month": null, "available_from": "2026-06-01",
+    "description": "Concrete-hulled houseboat with a permanent mooring permit and a 20 m2 floating terrace. The hull was inspected in 2024 and approved for ten years. Mooring fees to the municipality are about 1,450 euros per year. Financing a houseboat requires a specialist lender."
+  },
+  {
+    "id": "NL-1008", "title": "Detached villa near Haarlemmerhout", "address": "Wagenweg 214", "city": "Haarlem", "neighbourhood": "Haarlemmerhoutkwartier",
+    "listing_type": "sale", "status": "available", "price_eur": 1395000, "property_type": "detached house",
+    "bedrooms": 5, "bathrooms": 3, "area_m2": 228, "year_built": 1912, "energy_label": "C",
+    "features": ["garden", "garage", "driveway", "fireplace", "home office"], "pets_allowed": null, "service_costs_eur_month": null, "available_from": "2026-07-01",
+    "description": "Detached 1912 villa on a 610 m2 plot bordering the Haarlemmerhout park. Garage plus driveway for three cars, a garden room used as a home office, and original stained glass. The roof was replaced in 2020."
+  },
+  {
+    "id": "NL-1009", "title": "Terraced house in a child-friendly street", "address": "Zonnebloemstraat 31", "city": "Haarlem", "neighbourhood": "Bomenbuurt",
+    "listing_type": "sale", "status": "available", "price_eur": 579000, "property_type": "terraced house",
+    "bedrooms": 3, "bathrooms": 1, "area_m2": 104, "year_built": 1928, "energy_label": "C",
+    "features": ["garden", "attic", "bike shed"], "pets_allowed": null, "service_costs_eur_month": null, "available_from": "2026-03-01",
+    "description": "1920s terraced house with a north-east-facing garden of 7 metres and a rear entrance. Wall and floor insulation were added in 2021. Haarlem station is ten minutes by bike."
+  },
+  {
+    "id": "NL-1010", "title": "Semi-detached home with garage", "address": "Bergpad 6", "city": "Amersfoort", "neighbourhood": "Bergkwartier",
+    "listing_type": "sale", "status": "available", "price_eur": 845000, "property_type": "semi-detached house",
+    "bedrooms": 4, "bathrooms": 2, "area_m2": 168, "year_built": 1936, "energy_label": "B",
+    "features": ["garden", "garage", "solar panels", "bay window"], "pets_allowed": null, "service_costs_eur_month": null, "available_from": "2026-05-15",
+    "description": "Semi-detached 1930s home on a 385 m2 plot on the edge of the Amersfoort woods. Attached garage with electric door and a charging point for an electric car. Sixteen solar panels and hybrid heat pump installed in 2024."
+  },
+  {
+    "id": "NL-1011", "title": "Affordable apartment near Amersfoort station", "address": "Snouckaertlaan 55-12", "city": "Amersfoort", "neighbourhood": "Soesterkwartier",
+    "listing_type": "sale", "status": "available", "price_eur": 298000, "property_type": "apartment",
+    "bedrooms": 2, "bathrooms": 1, "area_m2": 63, "year_built": 1968, "energy_label": "C",
+    "features": ["balcony", "lift", "storage room"], "pets_allowed": null, "service_costs_eur_month": 178, "available_from": "2026-02-01",
+    "description": "Third-floor apartment in a 1968 block with lift, seven minutes' walk from Amersfoort Central station. West-facing balcony across the full width. The monthly owners' association contribution of 178 euros includes an advance for heating."
+  },
+  {
+    "id": "NL-1012", "title": "Loft in a former warehouse", "address": "Lloydstraat 210", "city": "Rotterdam", "neighbourhood": "Lloydkwartier",
+    "listing_type": "sale", "status": "available", "price_eur": 525000, "property_type": "apartment",
+    "bedrooms": 2, "bathrooms": 2, "area_m2": 118, "year_built": 1923, "energy_label": "B",
+    "features": ["lift", "private parking", "high ceilings", "river view"], "pets_allowed": null, "service_costs_eur_month": 285, "available_from": "2026-04-01",
+    "description": "Loft apartment in a converted 1923 warehouse with 3.6-metre ceilings and a view over the Maas river. Converted to apartments in 2008. One private parking space in the building is included in the price."
+  },
+  {
+    "id": "NL-1013", "title": "Terraced house in Kralingen", "address": "Waterloostraat 88", "city": "Rotterdam", "neighbourhood": "Kralingen",
+    "listing_type": "sale", "status": "available", "price_eur": 615000, "property_type": "terraced house",
+    "bedrooms": 4, "bathrooms": 1, "area_m2": 139, "year_built": 1910, "energy_label": "D",
+    "features": ["garden", "basement", "original details"], "pets_allowed": null, "service_costs_eur_month": null, "available_from": "2026-06-15",
+    "description": "Characterful 1910 house with stained glass, panelled doors and a basement. West-facing garden of 11 metres. The energy label is D and the single glazing at the front still needs replacing. A structural survey report from 2025 is available on request."
+  },
+  {
+    "id": "NL-2001", "title": "Furnished studio near Utrecht Science Park", "address": "Ina Boudier-Bakkerlaan 71-4", "city": "Utrecht", "neighbourhood": "Rijnsweerd",
+    "listing_type": "rent", "status": "available", "price_eur": 1095, "property_type": "studio",
+    "bedrooms": 0, "bathrooms": 1, "area_m2": 31, "year_built": 2019, "energy_label": "A",
+    "features": ["furnished", "student-friendly", "shared laundry", "bike storage"], "pets_allowed": false, "service_costs_eur_month": 85, "available_from": "2026-02-01",
+    "description": "Furnished 31 m2 studio with its own kitchen and bathroom, eight minutes by bike from Utrecht Science Park. Student-friendly: students can rent with a guarantor. Service costs of 85 euros per month cover internet and the shared laundry room. No pets."
+  },
+  {
+    "id": "NL-2002", "title": "Two-bedroom apartment in Lombok", "address": "Kanaalstraat 164-I", "city": "Utrecht", "neighbourhood": "Lombok",
+    "listing_type": "rent", "status": "available", "price_eur": 1650, "property_type": "apartment",
+    "bedrooms": 2, "bathrooms": 1, "area_m2": 68, "year_built": 1915, "energy_label": "B",
+    "features": ["balcony", "unfurnished", "pets allowed"], "pets_allowed": true, "service_costs_eur_month": 40, "available_from": "2026-03-01",
+    "description": "First-floor apartment in lively Lombok, renovated in 2022 with double glazing throughout. Unfurnished but with flooring and curtains. Pets are allowed. Ten minutes' walk to Utrecht Central station."
+  },
+  {
+    "id": "NL-2003", "title": "Family house for rent in Amersfoort Vathorst", "address": "Laakboulevard 412", "city": "Amersfoort", "neighbourhood": "Vathorst",
+    "listing_type": "rent", "status": "available", "price_eur": 2150, "property_type": "terraced house",
+    "bedrooms": 4, "bathrooms": 2, "area_m2": 135, "year_built": 2009, "energy_label": "A",
+    "features": ["garden", "private parking", "unfurnished", "pets allowed"], "pets_allowed": true, "service_costs_eur_month": null, "available_from": "2026-04-01",
+    "description": "Modern terraced house on the water with a sunny back garden and a private parking space. Four bedrooms across two upper floors. Pets are allowed in consultation. Primary school and Vathorst station are within walking distance."
+  },
+  {
+    "id": "NL-2004", "title": "Furnished canal apartment for expats", "address": "Keizersgracht 612-A", "city": "Amsterdam", "neighbourhood": "Grachtengordel",
+    "listing_type": "rent", "status": "available", "price_eur": 2950, "property_type": "apartment",
+    "bedrooms": 2, "bathrooms": 2, "area_m2": 95, "year_built": 1735, "energy_label": "D",
+    "features": ["furnished", "canal view", "monument", "dishwasher"], "pets_allowed": false, "service_costs_eur_month": 120, "available_from": "2026-02-15",
+    "description": "Fully furnished apartment on the bel-etage of an 18th-century canal house. Two bedrooms each with their own bathroom. Maximum rental period is 24 months because the owner is temporarily abroad. No pets and no sharing by more than two adults."
+  },
+  {
+    "id": "NL-2005", "title": "Bright apartment near Rotterdam Blaak", "address": "Wijnhaven 65-9B", "city": "Rotterdam", "neighbourhood": "Maritiem District",
+    "listing_type": "rent", "status": "available", "price_eur": 1475, "property_type": "apartment",
+    "bedrooms": 1, "bathrooms": 1, "area_m2": 58, "year_built": 2011, "energy_label": "A",
+    "features": ["lift", "balcony", "unfurnished", "concierge"], "pets_allowed": false, "service_costs_eur_month": 95, "available_from": "2026-03-15",
+    "description": "Ninth-floor one-bedroom apartment with a balcony overlooking the Wijnhaven harbour, three minutes' walk from Blaak station and the Markthal. The building has a concierge and a shared roof garden. Pets are not allowed."
+  },
+  {
+    "id": "NL-2006", "title": "Ground-floor apartment with garden in Haarlem", "address": "Kleverparkweg 23", "city": "Haarlem", "neighbourhood": "Kleverpark",
+    "listing_type": "rent", "status": "under_offer", "price_eur": 1895, "property_type": "apartment",
+    "bedrooms": 2, "bathrooms": 1, "area_m2": 76, "year_built": 1925, "energy_label": "C",
+    "features": ["garden", "unfurnished", "pets allowed", "shed"], "pets_allowed": true, "service_costs_eur_month": null, "available_from": "2026-05-01",
+    "description": "Ground-floor apartment with a 40 m2 garden and a shed with back entrance. Close to Haarlem station and the Kleverpark shops. Pets are allowed. A tenant has been selected and the listing is under offer."
+  }
+]

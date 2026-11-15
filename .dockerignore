@@ -1,0 +1,29 @@
+# Secrets and local state
+.env
+.env.*
+!.env.example
+.env-local
+.pgdata
+.venv
+
+# Version control and tooling
+.git
+.github
+**/__pycache__
+.pytest_cache
+.ruff_cache
+*.egg-info
+.DS_Store
+
+# Not needed in the image
+docs
+tests
+scripts
+evals/results
+demo-clips
+*.mp4
+*.zip
+build
+dist
+.cache
+*.log

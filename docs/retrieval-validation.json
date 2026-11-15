@@ -1,0 +1,284 @@
+{
+  "run_at": "2026-11-15T19:49:03",
+  "retrieval": {
+    "top_k": 5,
+    "hits": 17,
+    "total": 17,
+    "top1": 17,
+    "mrr": 1.0,
+    "rows": [
+      {
+        "id": "doc-01",
+        "question": "What commission do you charge for selling a home?",
+        "expected": [
+          "fees-and-commission.md"
+        ],
+        "hit": true,
+        "top_rank": 1,
+        "retrieved": [
+          "fees-and-commission.md",
+          "selling-guide.md",
+          "fees-and-commission.md",
+          "fees-and-commission.md",
+          "buying-guide.md"
+        ]
+      },
+      {
+        "id": "doc-02",
+        "question": "How much does your buying-agent service cost?",
+        "expected": [
+          "fees-and-commission.md"
+        ],
+        "hit": true,
+        "top_rank": 1,
+        "retrieved": [
+          "fees-and-commission.md",
+          "buying-guide.md",
+          "fees-and-commission.md",
+          "selling-guide.md",
+          "property-management.md"
+        ]
+      },
+      {
+        "id": "doc-03",
+        "question": "If my income is too low, what does a guarantor need to earn?",
+        "expected": [
+          "rental-policy.md"
+        ],
+        "hit": true,
+        "top_rank": 1,
+        "retrieved": [
+          "rental-policy.md",
+          "rental-policy.md",
+          "privacy-and-data.md",
+          "mortgage-advice.md",
+          "mortgage-advice.md"
+        ]
+      },
+      {
+        "id": "doc-04",
+        "question": "How big is the security deposit for a rental, and how fast do I get it back if there is no damage?",
+        "expected": [
+          "rental-policy.md"
+        ],
+        "hit": true,
+        "top_rank": 1,
+        "retrieved": [
+          "rental-policy.md",
+          "buying-guide.md",
+          "privacy-and-data.md",
+          "property-management.md",
+          "rental-policy.md"
+        ]
+      },
+      {
+        "id": "doc-05",
+        "question": "After I sign the purchase agreement, how long can I still change my mind?",
+        "expected": [
+          "buying-guide.md"
+        ],
+        "hit": true,
+        "top_rank": 1,
+        "retrieved": [
+          "buying-guide.md",
+          "buying-guide.md",
+          "buying-guide.md",
+          "selling-guide.md",
+          "buying-guide.md"
+        ]
+      },
+      {
+        "id": "doc-06",
+        "question": "How late can I cancel a viewing appointment?",
+        "expected": [
+          "viewings-and-bidding.md"
+        ],
+        "hit": true,
+        "top_rank": 1,
+        "retrieved": [
+          "viewings-and-bidding.md",
+          "viewings-and-bidding.md",
+          "privacy-and-data.md",
+          "buying-guide.md",
+          "selling-guide.md"
+        ]
+      },
+      {
+        "id": "doc-07",
+        "question": "Can I just phone in my bid on a house?",
+        "expected": [
+          "viewings-and-bidding.md"
+        ],
+        "hit": true,
+        "top_rank": 1,
+        "retrieved": [
+          "viewings-and-bidding.md",
+          "buying-guide.md",
+          "viewings-and-bidding.md",
+          "viewings-and-bidding.md",
+          "viewings-and-bidding.md"
+        ]
+      },
+      {
+        "id": "doc-08",
+        "question": "On average, how quickly did the homes you sold in 2025 find a buyer?",
+        "expected": [
+          "selling-guide.md"
+        ],
+        "hit": true,
+        "top_rank": 1,
+        "retrieved": [
+          "selling-guide.md",
+          "buying-guide.md",
+          "buying-guide.md",
+          "buying-guide.md",
+          "buying-guide.md"
+        ]
+      },
+      {
+        "id": "doc-09",
+        "question": "What do your clients pay for mortgage advice at Hypotheek Kompas?",
+        "expected": [
+          "mortgage-advice.md"
+        ],
+        "hit": true,
+        "top_rank": 1,
+        "retrieved": [
+          "mortgage-advice.md",
+          "mortgage-advice.md",
+          "mortgage-advice.md",
+          "buying-guide.md",
+          "mortgage-advice.md"
+        ]
+      },
+      {
+        "id": "doc-10",
+        "question": "Is the Amsterdam office open on Saturdays?",
+        "expected": [
+          "offices-and-contact.md"
+        ],
+        "hit": true,
+        "top_rank": 1,
+        "retrieved": [
+          "offices-and-contact.md",
+          "offices-and-contact.md",
+          "offices-and-contact.md",
+          "offices-and-contact.md",
+          "offices-and-contact.md"
+        ]
+      },
+      {
+        "id": "doc-11",
+        "question": "My heating broke down at night in the apartment you manage. What number do I call?",
+        "expected": [
+          "offices-and-contact.md"
+        ],
+        "hit": true,
+        "top_rank": 1,
+        "retrieved": [
+          "offices-and-contact.md",
+          "handover-and-complaints.md",
+          "rental-policy.md",
+          "property-management.md",
+          "rental-policy.md"
+        ]
+      },
+      {
+        "id": "doc-12",
+        "question": "As a landlord, what is your management fee and up to what amount can you do repairs without asking me?",
+        "expected": [
+          "property-management.md"
+        ],
+        "hit": true,
+        "top_rank": 1,
+        "retrieved": [
+          "property-management.md",
+          "property-management.md",
+          "offices-and-contact.md",
+          "rental-policy.md",
+          "property-management.md"
+        ]
+      },
+      {
+        "id": "doc-13",
+        "question": "How long does it take you to give a proper reply to a complaint?",
+        "expected": [
+          "handover-and-complaints.md"
+        ],
+        "hit": true,
+        "top_rank": 1,
+        "retrieved": [
+          "handover-and-complaints.md",
+          "handover-and-complaints.md",
+          "mortgage-advice.md",
+          "privacy-and-data.md",
+          "buying-guide.md"
+        ]
+      },
+      {
+        "id": "doc-14",
+        "question": "I applied for a rental but did not get it. How long do you keep my documents?",
+        "expected": [
+          "privacy-and-data.md"
+        ],
+        "hit": true,
+        "top_rank": 1,
+        "retrieved": [
+          "privacy-and-data.md",
+          "rental-policy.md",
+          "privacy-and-data.md",
+          "mortgage-advice.md",
+          "handover-and-complaints.md"
+        ]
+      },
+      {
+        "id": "mix-01",
+        "question": "If NL-1002 sells for exactly its asking price, what would your selling commission be?",
+        "expected": [
+          "fees-and-commission.md"
+        ],
+        "hit": true,
+        "top_rank": 1,
+        "retrieved": [
+          "fees-and-commission.md",
+          "selling-guide.md",
+          "buying-guide.md",
+          "selling-guide.md",
+          "selling-guide.md"
+        ]
+      },
+      {
+        "id": "mix-02",
+        "question": "What gross monthly income do I need to rent listing NL-2002?",
+        "expected": [
+          "rental-policy.md"
+        ],
+        "hit": true,
+        "top_rank": 1,
+        "retrieved": [
+          "rental-policy.md",
+          "rental-policy.md",
+          "rental-policy.md",
+          "property-management.md",
+          "property-management.md"
+        ]
+      },
+      {
+        "id": "mix-03",
+        "question": "How much security deposit would I pay for the studio near Utrecht Science Park?",
+        "expected": [
+          "rental-policy.md"
+        ],
+        "hit": true,
+        "top_rank": 1,
+        "retrieved": [
+          "rental-policy.md",
+          "offices-and-contact.md",
+          "property-management.md",
+          "offices-and-contact.md",
+          "buying-guide.md"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,197 @@
+# The test set: 30 questions with known answers.
+#
+# A question passes when ALL of these hold:
+#   must_include      every group has at least one of its alternatives in the answer
+#   sources           every group has at least one of its sources among the CITED sources
+#   must_not_include  none of these appear in the answer
+#   not_found: true   the answer says the information is not available (and invents nothing)
+#
+# Matching ignores case and thousands separators, so "3,950", "3.950" and "3950" are equal.
+# `derived: true` marks answers that need a calculation, so the expected value does not appear
+# literally in the source (tests/test_eval_set.py checks all other answers against the data).
+
+# --- Company documents: one fact, one source -------------------------------------------------
+- id: doc-01
+  category: documents
+  question: What commission do you charge for selling a home?
+  must_include: [["1.35"], ["3950"]]
+  sources: [[fees-and-commission.md]]
+
+- id: doc-02
+  category: documents
+  question: How much does your buying-agent service cost?
+  must_include: [["3450"]]
+  sources: [[fees-and-commission.md]]
+
+- id: doc-03
+  category: documents
+  question: If my income is too low, what does a guarantor need to earn?
+  must_include: [["5 times", "five times", "5x", "5×"]]
+  sources: [[rental-policy.md]]
+
+- id: doc-04
+  category: documents
+  question: How big is the security deposit for a rental, and how fast do I get it back if there is no damage?
+  must_include: [["two months", "2 months"], ["14 days"]]
+  sources: [[rental-policy.md]]
+
+- id: doc-05
+  category: documents
+  question: After I sign the purchase agreement, how long can I still change my mind?
+  must_include: [["three days", "3 days", "three-day", "3-day"]]
+  sources: [[buying-guide.md]]
+
+- id: doc-06
+  category: documents
+  question: How late can I cancel a viewing appointment?
+  must_include: [["four hours", "4 hours"]]
+  sources: [[viewings-and-bidding.md]]
+
+- id: doc-07
+  category: documents
+  question: Can I just phone in my bid on a house?
+  must_include: [["Open Bod"]]
+  sources: [[viewings-and-bidding.md]]
+
+- id: doc-08
+  category: documents
+  question: On average, how quickly did the homes you sold in 2025 find a buyer?
+  must_include: [["27"]]
+  sources: [[selling-guide.md]]
+
+- id: doc-09
+  category: documents
+  question: What do your clients pay for mortgage advice at Hypotheek Kompas?
+  must_include: [["1950"]]
+  sources: [[mortgage-advice.md]]
+
+- id: doc-10
+  category: documents
+  question: Is the Amsterdam office open on Saturdays?
+  must_include: [["closed", "not open", "by appointment"]]
+  sources: [[offices-and-contact.md]]
+
+- id: doc-11
+  category: documents
+  question: My heating broke down at night in the apartment you manage. What number do I call?
+  must_include: [["030 555 0199", "030-555-0199", "0305550199"]]
+  sources: [[offices-and-contact.md]]
+
+- id: doc-12
+  category: documents
+  question: As a landlord, what is your management fee and up to what amount can you do repairs without asking me?
+  must_include: [["6%", "6 %", "6 percent"], ["250"]]
+  sources: [[property-management.md]]
+
+- id: doc-13
+  category: documents
+  question: How long does it take you to give a proper reply to a complaint?
+  must_include: [["ten working days", "10 working days"]]
+  sources: [[handover-and-complaints.md]]
+
+- id: doc-14
+  category: documents
+  question: I applied for a rental but did not get it. How long do you keep my documents?
+  must_include: [["four weeks", "4 weeks"]]
+  sources: [[privacy-and-data.md]]
+
+# --- Listings: lookups and filters -----------------------------------------------------------
+- id: lst-01
+  category: listings
+  question: What is the asking price of listing NL-1005?
+  must_include: [["795000"]]
+  sources: [[NL-1005]]
+
+- id: lst-02
+  category: listings
+  question: Which homes for sale in Utrecht cost less than €500,000?
+  must_include: [["NL-1001"], ["NL-1003"]]
+  must_not_include: ["NL-1002", "NL-1004"]
+  sources: [[NL-1001], [NL-1003]]
+
+- id: lst-03
+  category: listings
+  question: Which of your rental listings allow pets?
+  must_include: [["NL-2002"], ["NL-2003"], ["NL-2006"]]
+  must_not_include: ["NL-2001", "NL-2004", "NL-2005"]
+  sources: [[NL-2002], [NL-2003], [NL-2006]]
+
+- id: lst-04
+  category: listings
+  question: Do you have a houseboat for sale, and what are the yearly mooring fees?
+  must_include: [["NL-1007"], ["1450"]]
+  sources: [[NL-1007]]
+
+- id: lst-05
+  category: listings
+  question: Until when has the ground rent been bought off for the apartment on Cruquiusweg?
+  must_include: [["2067"]]
+  sources: [[NL-1006]]
+
+- id: lst-06
+  category: listings
+  question: What is the cheapest home you have for sale in Amersfoort?
+  must_include: [["NL-1011"], ["298000"]]
+  sources: [[NL-1011]]
+
+- id: lst-07
+  category: listings
+  question: Which homes for sale in Rotterdam come with private parking?
+  must_include: [["NL-1012"]]
+  must_not_include: ["NL-1013"]
+  sources: [[NL-1012]]
+
+- id: lst-08
+  category: listings
+  question: Is the penthouse in Leidsche Rijn still available?
+  must_include: [["under offer"]]
+  sources: [[NL-1004]]
+
+- id: lst-09
+  category: listings
+  question: I am looking for a house to buy with at least 4 bedrooms and solar panels. What do you have?
+  must_include: [["NL-1002"], ["NL-1010"]]
+  sources: [[NL-1002], [NL-1010]]
+
+# --- Multi-step: combine a document rule with a listing --------------------------------------
+- id: mix-01
+  category: multi-step
+  derived: true
+  question: If NL-1002 sells for exactly its asking price, what would your selling commission be?
+  must_include: [["9301", "9302"]]
+  sources: [[fees-and-commission.md], [NL-1002]]
+
+- id: mix-02
+  category: multi-step
+  derived: true
+  question: What gross monthly income do I need to rent listing NL-2002?
+  must_include: [["5775"]]
+  sources: [[rental-policy.md], [NL-2002]]
+
+- id: mix-03
+  category: multi-step
+  derived: true
+  question: How much security deposit would I pay for the studio near Utrecht Science Park?
+  must_include: [["2190"]]
+  sources: [[rental-policy.md], [NL-2001]]
+
+# --- Not in the data: the right answer is "we don't have that" -------------------------------
+- id: neg-01
+  category: not-found
+  not_found: true
+  question: What discount do you give to sellers who have sold with you before?
+
+- id: neg-02
+  category: not-found
+  not_found: true
+  question: Who is the managing director of Noorderlicht Makelaars?
+
+- id: neg-03
+  category: not-found
+  not_found: true
+  question: Do you have any homes for sale in Groningen?
+
+- id: neg-04
+  category: not-found
+  not_found: true
+  question: What did Merelstraat 17 sell for the last time it changed owners?
