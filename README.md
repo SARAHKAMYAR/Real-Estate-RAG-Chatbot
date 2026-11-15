@@ -8,9 +8,9 @@ I built this portfolio project to explore a practical question: how can a chatbo
 
 ## 🎬 Watch the Demo
 
-[![Watch the Real Estate RAG Chatbot Demo](docs/screenshot.png)](docs/demo.mp4)
+https://github.com/user-attachments/assets/4e3fc3f4-5062-4f06-9774-263bd414f447
 
-**[▶ Play the Full Demo (85 seconds)](docs/demo.mp4)**
+*85-second silent walkthrough · Fictional real-estate data*
 
 [Demo Walkthrough](docs/DEMO.md) ·
 [Validation Results](docs/VALIDATION.md) ·
