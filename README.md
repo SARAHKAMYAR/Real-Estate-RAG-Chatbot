@@ -6,9 +6,15 @@ I built this portfolio project to explore a practical question: how can a chatbo
 
 > **Portfolio demo:** Noorderlicht Makelaars is a fictional Dutch real-estate agency. All company documents and property listings are sample data. This is a **local demonstration**, not a production service or a source of real-estate, legal, or financial advice.
 
-[**Watch the 85-second demo**](docs/demo.mp4) · [Demo walkthrough](docs/DEMO.md) · [Validation notes](docs/VALIDATION.md) · [Evaluation details](evals/RESULTS.md)
+## 🎬 Watch the Demo
 
-![Chatbot answering a rental income question with a listing citation and a policy citation](docs/screenshot.png)
+[![Watch the Real Estate RAG Chatbot Demo](docs/screenshot.png)](docs/demo.mp4)
+
+**[▶ Play the Full Demo (85 seconds)](docs/demo.mp4)**
+
+[Demo Walkthrough](docs/DEMO.md) ·
+[Validation Results](docs/VALIDATION.md) ·
+[Evaluation Report](evals/RESULTS.md)
 
 ## What it does
 
